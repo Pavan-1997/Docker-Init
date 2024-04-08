@@ -1,5 +1,27 @@
 # Docker-Init
 
+Initialize a project with the files necessary to run the project in a container.
+
+Docker Desktop provides the docker init CLI command. Run docker init in your project directory to be walked through the creation of the following files with sensible defaults for your project:
+
+- .dockerignore
+- Dockerfile
+- compose.yaml
+- README.Docker.md
+
+If any of the files already exist, a prompt appears and provides a warning as well as giving you the option to overwrite all the files. If docker-compose.yaml already exists instead of compose.yaml, docker init can overwrite it, using docker-compose.yaml as the name for the Compose file.
+
+### Supported Languages:
+
+- ASP.NET Core: Suitable for an ASP.NET Core application.
+- Go: Suitable for a Go server application.
+- Java: suitable for a Java application that uses Maven and packages as an uber jar.
+- Node: Suitable for a Node server application.
+- PHP with Apache: Suitable for a PHP web application.
+- Python: Suitable for a Python server application.
+- Rust: Suitable for a Rust server application.
+- Other: General purpose starting point for containerizing your application.
+
 ## Initially running on the Local machine 
 
 ![image](https://github.com/Pavan-1997/Docker-Init/assets/32020205/2ee75ad2-8cb4-4862-aea9-2042ccecfcee)
