@@ -20,6 +20,10 @@ python sample.py
 ---
 ## Using Docker Init 
 
+```
+docker init
+```
+
 ![image](https://github.com/Pavan-1997/Docker-Init/assets/32020205/c90454fb-73b4-4697-a4da-e3a0520fd575)
 
 ![image](https://github.com/Pavan-1997/Docker-Init/assets/32020205/27e49a8b-2e01-4520-b3b8-e1de9e28b102)
