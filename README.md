@@ -10,5 +10,7 @@ pip3 install -r requirements.txt
 ```
 
 ```
-python3 sample.py
+python sample.py
 ```
+
+![image](https://github.com/Pavan-1997/Docker-Init/assets/32020205/2bb21d67-1dad-4b18-bd52-d6bd204d1dd0)
