@@ -6,5 +6,5 @@ Initially
 
 
 ```
-pip3 -r install requiremets.txt
+pip3 -r install requirements.txt
 ```
